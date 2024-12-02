@@ -1,0 +1,51 @@
+name: game
+description: A new Flutter project.
+version: 0.0.1
+publish_to: none
+
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  audioplayers: ^6.0.0
+  confetti: ^0.7.0
+  dio: ^5.4.2+1
+  dio_cache_interceptor: ^3.5.0
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+  font_awesome_flutter: ^10.7.0
+  gesture_x_detector: ^1.1.1
+  get: ^4.6.6
+  ilp_file_codec:
+    path: ../ilp_file_codec
+  ui:
+    path: ../ui
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  synchronized: ^3.1.0+1
+  universal_io: ^2.2.2
+  url_launcher: ^6.2.5
+  tweener: ^2.2.3
+  flutter_svg: ^2.0.10+1
+  path_drawing: ^1.0.1
+  xml: ^6.5.0
+  borders: 0.3.0
+  google_fonts: ^6.2.1
+  oktoast: ^3.4.0
+  image: ^4.1.7
+  collection: ^1.18.0
+  dotted_border: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/sounds/
